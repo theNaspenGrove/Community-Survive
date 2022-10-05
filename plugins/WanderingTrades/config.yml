@@ -1,0 +1,16 @@
+# WanderingTrades Config 1.6.5.2
+debug: false
+language: en_US
+updateLang: true
+enabled: true
+allowMultipleSets: true
+removeOriginalTrades: false
+refreshCommandTraders: false
+refreshCommandTradersMinutes: 5
+traderWorldWhitelist: false
+traderWorldList:
+- example_world
+wgWhitelist: false
+wgRegionList:
+- RegionExample
+disableCommands: false

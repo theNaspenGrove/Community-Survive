@@ -1,0 +1,34 @@
+# WanderingTrades PlayerHeads Config 1.6.5.2
+# 
+# Should player heads from players who have been on the server
+# be added to wandering traders
+playerHeadsFromServer: false
+days: 120
+playerHeadsFromServerChance: 0.8
+playerHeadsFromServerAmount: '1'
+usernameBlacklist:
+- Notch
+permissionWhitelist: false
+headTrade:
+  maxUses: 1
+  experienceReward: true
+  ingredients:
+    '1':
+      customname: NONE
+      material: EMERALD
+      amount: 1
+      itemStack:
+        v: 2586
+        type: EMERALD
+    '2':
+      customname: NONE
+      material: IRON_INGOT
+      amount: 1
+      itemStack:
+        v: 2586
+        type: IRON_INGOT
+  head:
+    customname: <yellow>{PLAYER}'s Head
+    amount: 1
+    lore:
+    - '  <gray><italic>Obtained from Wandering Trader'

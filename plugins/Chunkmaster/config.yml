@@ -1,0 +1,12 @@
+generation:
+  mspt-pause-threshold: 40
+  pause-on-player-count: 2
+  max-pending-chunks: 50
+  max-loaded-chunks: 25
+  unloading-period: 10
+  ignore-worldborder: false
+  autostart: true
+database:
+  filename: chunkmaster.db
+language: en
+dynmap: true

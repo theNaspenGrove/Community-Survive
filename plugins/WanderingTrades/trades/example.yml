@@ -1,0 +1,63 @@
+# WanderingTrades Example TradeConfig 1.6.5.2
+# 
+# Enable this tradeset config
+enabled: false
+chance: 0.75
+randomized: true
+randomAmount: '2'
+invincible: false
+customName: <gradient:red:yellow><bold>Example</gradient><blue>!
+disableHeroOfTheVillageGifts: false
+trades:
+  myfirsttrade:
+    maxUses: 3
+    experienceReward: true
+    ingredients:
+      '1':
+        customname: NONE
+        material: GLASS
+        amount: 3
+    result:
+      customname: NONE
+      material: DIAMOND_PICKAXE
+      amount: 64
+      enchantments:
+      - unbreaking:3
+      - efficiency:5
+      - mending:1
+      - silk_touch:1
+  microblock1:
+    experienceReward: true
+    ingredients:
+      '1':
+        customname: NONE
+        material: EMERALD
+        amount: 1
+      '2':
+        customname: NONE
+        material: PACKED_ICE
+        amount: 1
+    result:
+      customname: <aqua>Packed Ice
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE1NDIyODZkYTAzYWI3ZWVjYzRlNTYyYzNmOGI4YTFjZjc4MWRhMzA4YjA3OWUzYWMzMzE0NTYxYjljMWQ5OSJ9fX0=
+      amount: 8
+  loreExample:
+    maxUses: 1
+    experienceReward: true
+    ingredients:
+      '1':
+        customname: NONE
+        material: GLASS
+        amount: 3
+    result:
+      customname: <rainbow>-====- God Axe -====-
+      material: DIAMOND_AXE
+      amount: 1
+      enchantments:
+      - unbreaking:3
+      - efficiency:10
+      - mending:1
+      lore:
+      - <gradient:black:white>||||||||||||||||||||||||||||||||</gradient><gradient:white:black>||||||||||||||||||||||||||||||||
+      - '       <gradient:blue:green>Very Cool Axe'
+      - <gradient:black:white>||||||||||||||||||||||||||||||||</gradient><gradient:white:black>||||||||||||||||||||||||||||||||

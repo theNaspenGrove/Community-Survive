@@ -1,0 +1,86 @@
+# WanderingTrades Example TradeConfig 1.6.5.2
+#
+# Enable this tradeset config
+enabled: true
+chance: 0.9
+randomized: true
+randomAmount: 0:4
+invincible: false
+customName: NONE
+disableHeroOfTheVillageGifts: false
+trades:
+  pigstep:
+    maxUses: 2
+    experienceReward: true
+    result:
+      itemStackAsBytes: !!binary |-
+        H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYZDJzcxLTS5KTCuxyi0tzkyOT8ksTo4vyEwvLkktYGRgdc4vzSthZAAAsnAwSkIAAAA=
+    ingredients:
+      '1':
+        itemStackAsBytes: !!binary |-
+          H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYRDOzcxLTS5KTCuxysjPS61Mzs9NYmRgdc4vzSthZAAAC4D+2TkAAAA=
+      '2':
+        itemStackAsBytes: !!binary |-
+          H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYRDMzcxLTS5KTCuxSs1NLUrMSWFkYHXOL80rUWAAAOmjxgY3AAAA
+  pigSnout:
+    maxUses: 4
+    experienceReward: true
+    result:
+      itemStackAsBytes: !!binary |-
+        H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYZDPzcxLTS5KTCuxKshMz8nMi09KzMtLLYovSCwpSS3KY2Rgdc4vzSthZAAAHHQSl0UAAAA=
+    ingredients:
+      '1':
+        itemStackAsBytes: !!binary |-
+          H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYeDPzcxLTS5KTCuxKkgsSC1iZGB1zi/NK2FkAADVkKo9NQAAAA==
+      '2':
+        itemStackAsBytes: !!binary |-
+          H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYVDLzcxLTS5KTCuxSs7ILE7NSU2JL8jPySzOADKSchKTs4tL8vNSGRlYnfNL80oEGADjCkgVTAAAAA==
+  HeartOfTheSea:
+    maxUses: 2
+    experienceReward: true
+    result:
+      itemStackAsBytes: !!binary |-
+        H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYZDKzcxLTS5KTCuxykhNLCqJz0+LL8lIjS9OTWRkYHXOL80rYWQAAFmAzGxAAAAA
+    ingredients:
+      '1':
+        itemStackAsBytes: !!binary |-
+          H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYZDIzcxLTS5KTCuxykssLcnMKS2OL85IzclhZGB1zi/NKxFgAABWNq1dPgAAAA==
+      '2':
+        itemStackAsBytes: !!binary |-
+          H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYRDNzcxLTS5KTCuxykstyUgtii8uSSxiZGB1zi/NK2FkAAC1+46wOwAAAA==
+  CobWeb:
+    maxUses: 12
+    experienceReward: true
+    result:
+      itemStackAsBytes: !!binary |-
+        H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYRDIzcxLTS5KTCuxSs5PKk9NYmRgdc4vzSsxYAAAMs8X7zYAAAA=
+    ingredients:
+      '1':
+        itemStackAsBytes: !!binary |-
+          H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYRDIzcxLTS5KTCuxKi4pysxLZ2Rgdc4vzStxYAAAoS8PlDYAAAA=
+      '2':
+        itemStackAsBytes: !!binary |-
+          H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYRDMzcxLTS5KTCuxSs1NLUrMSWFkYHXOL80r4WAAAEMNm1s3AAAA
+  WetSponge:
+    maxUses: 6
+    experienceReward: true
+    result:
+      itemStackAsBytes: !!binary |-
+        H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYRDJzcxLTS5KTCuxKk8tiS8uyM9LT2VkYHXOL80r4WAAACBoQo06AAAA
+    ingredients:
+      '1':
+        itemStackAsBytes: !!binary |-
+          H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYRDMzcxLTS5KTCuxSs1NLUrMSWFkYHXOL80r4WEAAEfI9z83AAAA
+  NotchApple:
+    maxUses: 4
+    experienceReward: true
+    result:
+      itemStackAsBytes: !!binary |-
+        H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYVDIzcxLTS5KTCuxSs1LzkjMK0lNiU/Pz0lJzYtPLCjISWVkYHXOL80rYWQAABIquQJGAAAA
+    ingredients:
+      '1':
+        itemStackAsBytes: !!binary |-
+          H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYeDPzcxLTS5KTCuxSiwoyEllZGB1zi/NK1FgAABS93WtNQAAAA==
+      '2':
+        itemStackAsBytes: !!binary |-
+          H4sIAAAAAAAAAONiYGBm4HZJLEkMSy0qzszPY2DgkuJgYMpMYZDOzcxLTS5KTCuxSq0oSC3KTM1LTo1Pyi8pyUllZGB1zi/NKzFgAABaFJzoQQAAAA==

@@ -1,0 +1,14 @@
+# -----------------------------------------------------------------------------------------
+# Represents a chat format file that can be used to stylize messages.
+# See the chat.yml for a tutorial on how this works.
+# -----------------------------------------------------------------------------------------
+
+# The parts of this format.
+Parts:
+  JoinMarker:
+    Message: '&6[&a&l+&6]&r '
+    Hover:
+    - '&7Click welcome &6{player_name}&7 back to the server!'
+    Suggest_Command: Welcome back {player_name}!
+  Message:
+    Message: '&e{player_nick}&e has joined the game!'

@@ -1,0 +1,88 @@
+#     _____  _                        _  __     _       _    _
+#    |   __|| |_  ___  ___  ___  ___ | ||  |   |_| ___ | |_ | |_
+#    |   __||  _|| -_||  _||   || .'|| ||  |__ | || . ||   ||  _|
+#    |_____||_|  |___||_|  |_|_||__,||_||_____||_||_  ||_|_||_|
+#                                                 |___|
+#
+# Eternal Light is a plugin based from the Not Enough Item's mod light level overlays.
+# Red meaning hostile mobs can spawn at any time; yellow only during night and green
+# meaning that light levels are to high for hostile mobs to spawn.
+#
+# PERMISSIONS
+#   eternallight.admin - Allows players to use /el
+#   eternallight.use   - Allows players to use /ll
+#   eternallight.mode  - Allows players to use /ll mode and /ll help. If they do not have this 
+#                        permission they will only be able to use the default display mode.
+#
+# COMMANDS
+#   /el or /eternallight - (eternallight.admin) Displays admin command.
+#   /lightlevels or /ll  - (eternallight.use) Enables the light overlay.
+#   /lightlevels mode    - (eternallight.use) Toggles between active modes.
+#
+# MODES
+#   SPAWNABLE  - Red and yellow areas shown.
+#   ALL        - Red, yellow and green areas shown.
+#   LIGHTLEVEL - All areas show like ALL mode but smoothed.
+#
+# EXPLANATIONS
+#   radius           - Sets the radius players can see light levels in. It's advised to keep this
+#                      lower as it adds exponentially more load on the server the larger it is.
+#   update-rate      - Sets how long to wait between each display render of the particles in ticks (20 ticks a second). 
+#                      Increasing this will reduce load on the server as people use it.
+#   default-mode     - Default mode used for when players first toggle on the display.
+#   messages.enabled - If false players will not see activate, deactivate and change-mode messages.
+
+lightlevels:
+  overworld: 0
+  nether: 11
+  end: 11
+  legacy:
+    overworld: 7
+    nether: 11
+    end: 0
+mobs:
+  overworld:
+  - zombie
+  - zombie_villager
+  - drowned
+  - husk
+  - stray
+  - witch
+  - creeper
+  - slime
+  - spider
+  - skeleton
+  - enderman
+  nether:
+  - magma_cube
+  - blaze
+  - ghast
+  - hoglin
+  - piglin
+  - zombified_piglin
+  - piglin_brute
+  - enderman
+  - wither_skeleton:
+      nether: 7
+  end:
+  - enderman
+update-notifications: true
+scanner:
+  spherical: true
+  radius: 10
+  height: 5
+update-rate: 20
+default-mode: SPAWNABLE
+messages:
+  invalid-target: '&cNo entity was found by that name. Tye /lightlevels targetlist
+    for a list'
+  set-target: Set target to &7%target%
+  enabled: true
+  use-prefix: true
+  prefix: '&6&l[&2Naspen-Light&6&l]&r '
+  activate: '&aEnabled&f the light level projector. &7Use /ll mode to toggle between
+    display modes.'
+  deactivate: '&cDisabled&f light level projector.'
+  change-mode: Set display mode to &7%mode%
+  no-permission: '&cYou do not have permission to do this!'
+  invalid-mode: '&cInvalid display mode!'
