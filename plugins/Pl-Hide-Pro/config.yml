@@ -5,7 +5,7 @@
 #Config version. Don't change!
 version: "9"
 
-debug: false
+debug: true
 
 #OP-protection: Player can only be op'ed if they are in the "allowed-operators" list
 op-protection: false
@@ -67,7 +67,7 @@ groups:
     #The group modes are taken from the parent group, in this case the parent group is "default"
     included-groups:
       - exampleGroup
-
+    inherited-groups: []
   #This group will remove all commands from the tab complete and block them from being executed
   #Give the player the plhide.group.test permission to use the group
   Test:
@@ -78,6 +78,7 @@ groups:
     priority: 1
     blocked-command-message: "Unknown command. Type \"/help\" for help."
     included-groups: []
+    inherited-groups: []
   #This group will be added automatically if you are an operator
   #Do not rename or delete this group
   op:
@@ -88,6 +89,7 @@ groups:
     priority: 10
     blocked-command-message: "Unknown command. Type \"/help\" for help."
     included-groups: []
+    inherited-groups: []
   #This group will be added automatically if you have * permissions
   #Do not rename or delete this group
   "*":
@@ -98,3 +100,4 @@ groups:
     priority: 11
     blocked-command-message: "Unknown command. Type \"/help\" for help."
     included-groups: []
+    inherited-groups: []
