@@ -130,3 +130,11 @@ SurvivalWorld/level.dat_old
 SurvivalWorld/session.lock
 
 SurvivalWorld/uid.dat
+
+*.log
+
+*.old
+
+*.imported
+
+*.gz
