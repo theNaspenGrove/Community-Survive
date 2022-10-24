@@ -1,0 +1,1 @@
+java -jar AspenFilter-1.0-SNAPSHOT.jar censor .SurvivalFilters
