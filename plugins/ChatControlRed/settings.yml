@@ -150,8 +150,11 @@ Channels:
   # - Message_Delay: This overrides Anti_Spam.Chat.Delay so you can chat chat delay per channel.
   #                  Put string values there like "5 seconds" or "1 minute" etc.
   #
-  # - Bungee: true/false option. This overrides Integration.BungeeCord from below, so you can
-  #           disable BungeeCord message synchronization for some channels.
+  # - Bungee: true/false option. If not set, we default to Integration.BungeeCord option. 
+  #
+  # - Bungee_Spy: true/false option. True = we will send channel messages to spying administrators 
+  #               over BungeeCord network. This works even if Bungee is disabled so you can spy
+  #               local chat over your network. If not set, defaults to "Bungee" option, see above.
   #
   # - Discord_Channel_Id: a numeric ID of your Discord channel to link this channel with, see:
   #                       https://github.com/kangarko/ChatControl-Red/wiki/Discord
@@ -1319,7 +1322,11 @@ Integration:
     # do not have DiscordSRV installed but their channels have Discord & Bungee enabled to
     # forward the message to this server and use this server's DiscordSRV plugin to send
     # it to Discord. Only set this to true for 1 server on your network that has DiscordSRV
-    # installed to avoid duplication.
+    # installed to avoid duplication. 
+    #
+    # When this option is set to true, due to a technical limitation in order for a discord message 
+    # to be forwarded, at least one person has to be on the server with DiscordSRV installed. If no
+    # one is on that server, no message will be forwarded to the other servers on your network.
     #
     # TO AVOID DUPLICATED MESSAGES, ONLY INSTALL DISCORDSRV ONE 1 SERVER ON YOUR NETWORK
     #
