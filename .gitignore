@@ -138,3 +138,11 @@ SurvivalWorld/uid.dat
 *.imported
 
 *.gz
+
+*.zip
+
+.SurvivalFilters/
+
+kept_area.csv
+
+plugins/DriveBackupV2/GoogleDriveCredential.json
