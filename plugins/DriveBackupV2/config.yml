@@ -1,0 +1,52 @@
+# 
+# DriveBackupV2   -   by Max Maeder (MaxTheGinus)
+delay: -1
+backup-thread-priority: 3
+keep-count: 14
+local-keep-count: 0
+backups-require-players: true
+restart-after-backup: false
+scheduled-backups: true
+backup-schedule-list:
+- days: 
+  - "everyday"
+  time: "00:00"
+- days: 
+  - "everyday"
+  time: "12:00"
+backup-list:
+- path: ./world
+  format: '''CommunitySurvival-OverWorld-''yyyy-M-d--HH-mm''.zip'''
+  create: true
+- path: ./world_nether
+  format: '''CommunitySurvival-Nether-''yyyy-M-d--HH-mm''.zip'''
+  create: true
+- path: ./world_the_end
+  format: '''CommunitySurvival-End-''yyyy-M-d--HH-mm''.zip'''
+  create: true
+googledrive:
+  enabled: true
+onedrive:
+  enabled: false
+ftp:
+  enabled: false
+  hostname: ftp.example.com
+  port: 21
+  sftp: false
+  ftps: false
+  username: Username
+messages:
+  send-in-chat: true
+  prefix: '&6&l[&2Naspen-The-Saver&6&l]&r '
+  default-color: '&d'
+advanced:
+  metrics: true
+  update-check: true
+  suppress-errors: false
+  date-language: en
+  ftp-file-separator: /
+  date-timezone: -00:00
+dropbox: {}
+version: 2
+local-save-directory: backups
+remote-save-directory: Community Server Backups/Survival
