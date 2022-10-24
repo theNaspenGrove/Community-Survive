@@ -11,7 +11,8 @@ then bungeeconsole send {player} survival
 then deny
 
 match ^\/creative$
-then bungeeconsole send {player} creative
+then warn &cDescription: Sorry! The Creative Server is down for the time being!.
+then warn &cDescription: https://github.com/IntellectualSites/PlotSquared/issues/3828#issuecomment-1271007442
 then deny
 
 # -----------------------------------------------------------------------------------------------
