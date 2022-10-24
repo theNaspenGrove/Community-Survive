@@ -160,7 +160,7 @@ StatusUpdateRateInMinutes: 0
 # DiscordChatChannelRoleAliases: list of role aliases (alternate names for roles to use in Minecraft messages)
 #
 DiscordChatChannelDiscordToMinecraft: true
-DiscordChatChannelMinecraftToDiscord: true
+DiscordChatChannelMinecraftToDiscord: false
 DiscordChatChannelTruncateLength: 256
 DiscordChatChannelTranslateMentions: true
 DiscordChatChannelAllowedMentions: [user, channel, emote]
