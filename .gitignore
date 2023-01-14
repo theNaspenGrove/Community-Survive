@@ -146,3 +146,7 @@ SurvivalWorld/uid.dat
 kept_area.csv
 
 plugins/DriveBackupV2/GoogleDriveCredential.json
+
+*.bin
+
+plugins/LuckPerms/editor-keystore.json
