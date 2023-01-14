@@ -1,0 +1,12 @@
+saveInterval: 6000
+upgradeMaterial: NETHER_STAR
+particleInterval: 10
+particle: COMPOSTER
+targets:
+- ==: org.bukkit.Location
+  world: SurvivalWorld
+  x: -6.0
+  y: 91.0
+  z: -53.0
+  pitch: 0.0
+  yaw: 0.0
