@@ -1,5 +1,5 @@
 # WanderingTrades PlayerHeads Config 1.6.5.2
-# 
+#
 # Should player heads from players who have been on the server
 # be added to wandering traders
 playerHeadsFromServer: false
@@ -17,16 +17,16 @@ headTrade:
       customname: NONE
       material: EMERALD
       amount: 1
-      itemStack:
-        v: 2586
-        type: EMERALD
+      # The following value was serialized from an in-game item and is not meant to be human-readable or editable. As long as it is present other options for this item will be ignored.
+      itemStackAsBytes: !!binary |-
+        H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgmcTBwJSZwiCYm5mXmlyUmFZilZqbWpSYk8LIwOqcX5pXwsgAAGjInZs3AAAA
     '2':
       customname: NONE
       material: IRON_INGOT
       amount: 1
-      itemStack:
-        v: 2586
-        type: IRON_INGOT
+      # The following value was serialized from an in-game item and is not meant to be human-readable or editable. As long as it is present other options for this item will be ignored.
+      itemStackAsBytes: !!binary |-
+        H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgmcTBwJSZwiCSm5mXmlyUmFZilVmUnxefmZeeX8LIwOqcX5oHpAGoJ+cGOgAAAA==
   head:
     customname: <yellow>{PLAYER}'s Head
     amount: 1
