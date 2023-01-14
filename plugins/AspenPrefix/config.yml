@@ -1,6 +1,6 @@
 chat-prefix: "&a&l[&bAspen-Prefix&a&l]&r"
 
-default-prefix: "&6[&r{#FF0000}Broken-One&6]&r"
+default-prefix: "{#FF0000}Broken-One"
 
 #Use $prefix to place the prefix in your format.
 prefix-format: "&6[&r$prefix&6]&r"
